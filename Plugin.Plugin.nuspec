@@ -8,7 +8,6 @@
     <owners>Houssem Dellai</owners>
     <licenseUrl/>
     <projectUrl/>
-    <!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->
     <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
