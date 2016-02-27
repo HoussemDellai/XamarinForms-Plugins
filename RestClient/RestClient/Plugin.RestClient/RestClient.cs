@@ -15,7 +15,7 @@ namespace Plugin.RestClient
     {
         private const string WebServiceUrl = "http://taskmodel.azurewebsites.net/api/TaskModels/";
 
-        public async Task<List<T>> GetTaskModelsAsync()
+        public async Task<List<T>> GetAsync()
         {
             var httpClient = new HttpClient();
 
@@ -26,7 +26,7 @@ namespace Plugin.RestClient
             return taskModels;
         }
 
-        public async Task<bool> AddTaskModelAsync(T t)
+        public async Task<bool> PostAsync(T t)
         {
             var httpClient = new HttpClient();
 
@@ -41,7 +41,7 @@ namespace Plugin.RestClient
             return result.IsSuccessStatusCode;
         }
 
-        public async Task<bool> EditTaskModelAsync(int id, T t)
+        public async Task<bool> PutAsync(int id, T t)
         {
             var httpClient = new HttpClient();
 
@@ -56,7 +56,7 @@ namespace Plugin.RestClient
             return result.IsSuccessStatusCode;
         }
 
-        public async Task<bool> DeleteTaskModelAsync(int id, T t)
+        public async Task<bool> DeleteAsync(int id, T t)
         {
             var httpClient = new HttpClient();
 
