@@ -6,10 +6,8 @@
     <title>Rest Client for Xamarin and Windows</title>
     <authors>Houssem Dellai</authors>
     <owners>Houssem Dellai</owners>
-    <licenseUrl/>
-    <projectUrl/>
+    <licenseUrl>https://github.com/HoussemDellai/XamarinForms-Plugins/</licenseUrl>    <projectUrl>https://github.com/HoussemDellai/XamarinForms-Plugins/</projectUrl>
     <iconUrl>https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/rest-client-icon.PNG</iconUrl>
-
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Provides a sample class for consuming HTTP REST web services, including calling GET, POST, PUT and DELETE operations. It hides the complexity behind serializiing and deserializing entities/models and creating HTTP requests.
