@@ -8,7 +8,7 @@
     <owners>Houssem Dellai</owners>
     <licenseUrl/>
     <projectUrl/>
-    <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+    <iconUrl>https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/rest-client-icon.PNG</iconUrl>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
