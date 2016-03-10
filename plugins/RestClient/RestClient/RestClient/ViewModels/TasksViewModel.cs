@@ -9,7 +9,6 @@ using Xamarin.Forms;
 
 namespace RestClient.ViewModels
 {
-
     public class TasksViewModel : INotifyPropertyChanged
     {
 
