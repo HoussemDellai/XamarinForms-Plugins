@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestClient.Views.TaskDetailsPage"
+             Title="Details">
+
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Text="POST"
+                 Icon="add.png"
+                 Command="{Binding PostCommand}"
+                 Order="Primary"
+                 Priority="0" />
+    <ToolbarItem Text="PUT"
+                 Icon="edit.png"
+                 Command="{Binding PutCommand}"
+                 Order="Primary"
+                 Priority="0" />
+    <ToolbarItem Text="DELETE"
+                 Icon="delete.png"
+                 Command="{Binding DeleteCommand}"
+                 Order="Primary"
+                 Priority="0" />
+  </ContentPage.ToolbarItems>
+
+  <StackLayout Orientation="Vertical"
+               Padding="10,5">
+    <Label Text="Title"
+           FontSize="16"/>
+    <Entry Text="{Binding SelectedTask.Title}"/>
+    <Label Text="Content"
+           FontSize="16"/>
+    <Entry Text="{Binding SelectedTask.Content}" />
+    <Label Text="CreatedAt"
+           FontSize="16"/>
+    <DatePicker Date="{Binding SelectedTask.CreatedAt, Mode=TwoWay}"/>
+
+    <ActivityIndicator IsVisible="{Binding IsBusy}"
+                       Color="Navy"
+                       IsRunning="{Binding IsBusy}"
+                       HeightRequest="50"/>
+  </StackLayout>
+
+</ContentPage>
