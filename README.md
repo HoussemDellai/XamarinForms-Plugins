@@ -5,6 +5,6 @@ This project provides the basic source code you need to develop a Xamarin Forms 
 
 The nuget plagin is available at : <a href="https://www.nuget.org/packages/Plugin.XamarinForms.RestClient/">https://www.nuget.org/packages/Plugin.XamarinForms.RestClient/</a>
 
-<img width="80%" src="https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/screenshot1.png?raw=true"/>
+<img width="80%" src="https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/screenshot4.png?raw=true"/>
 
-<img width="80%" src="https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/screenshot2.png?raw=true"/>
+<img width="80%" src="https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/screenshot3.png?raw=true"/>
