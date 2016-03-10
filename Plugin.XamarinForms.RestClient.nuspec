@@ -8,7 +8,7 @@
     <owners>Houssem Dellai</owners>
     <licenseUrl>https://github.com/HoussemDellai/XamarinForms-Plugins</licenseUrl>
     <projectUrl>https://github.com/HoussemDellai/XamarinForms-Plugins</projectUrl>
-    <iconUrl>https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/rest-client-icon.PNG</iconUrl>
+    <iconUrl>https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/rest-client-icon.PNG?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Provides a sample implementation for consuming HTTP REST web services, including calling GET, POST, PUT and DELETE operations. It hides the complexity behind serializiing and deserializing entities/models and creating HTTP requests.
