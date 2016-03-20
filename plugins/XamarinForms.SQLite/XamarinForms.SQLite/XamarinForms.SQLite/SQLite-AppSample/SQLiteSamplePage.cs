@@ -99,7 +99,6 @@ namespace XamarinForms.SQLite
                     }
                 }
             };
-
             return contentPage;
         }
     }
