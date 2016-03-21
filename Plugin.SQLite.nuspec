@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.8.3">
     <id>Plugin.SQLite</id>
-    <version>1.0.2</version>
+    <version>1.0.4</version>
     <title>SQLite for Xamarin and Windows</title>
     <authors>Houssem Dellai</authors>
     <owners>Houssem Dellai</owners>
     <licenseUrl>https://github.com/HoussemDellai/XamarinForms-Plugins</licenseUrl>
     <projectUrl>https://github.com/HoussemDellai/XamarinForms-Plugins</projectUrl>
-    <iconUrl>https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/rest-client-icon.PNG</iconUrl>
+    <iconUrl>https://github.com/HoussemDellai/XamarinForms-Plugins/blob/master/items/sqlite200.png?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Provides a sample code to get started with SQLite.

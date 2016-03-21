@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using SQLite;
+﻿using SQLite;
 using Xamarin.Forms;
 using XamarinForms.SQLite.SQLite;
 
@@ -53,22 +50,36 @@ namespace XamarinForms.SQLite
             var entry = new Entry
             {
                 Placeholder = "Text",
-                WidthRequest = 300
+                WidthRequest = Device.OnPlatform<double>(300, 300, 260)
             };
 
             var switcher = new Switch();
 
-            var button = new Button
+            var addButton = new Button
             {
                 Text = "Add TodoItem"
             };
-            button.Clicked += (s, e) =>
+            addButton.Clicked += (s, e) =>
             {
                 _sqLiteConnection.Insert(new TodoItem
                 {
                     Text = entry.Text,
                     Done = switcher.IsToggled,
                 });
+            };
+
+            var listView = new ListView
+            {
+                ItemsSource = _sqLiteConnection.Table<TodoItem>()
+            };
+
+            var refreshButton = new Button
+            {
+                Text = "Refresh TodoItems"
+            };
+            refreshButton.Clicked += (s, e) =>
+            {
+                listView.ItemsSource = _sqLiteConnection.Table<TodoItem>();
             };
 
             var contentPage = new ContentPage
@@ -91,11 +102,9 @@ namespace XamarinForms.SQLite
                                 switcher,
                             }
                         },
-                        button,
-                        new ListView
-                        {
-                            ItemsSource = _sqLiteConnection.Table<TodoItem>()
-                        }
+                        addButton,
+                        refreshButton,
+                        listView,
                     }
                 }
             };
